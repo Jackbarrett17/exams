@@ -1,0 +1,32 @@
+#qustion 1
+#student name:jack barrett
+#(a)
+taylorswiftsongs = ["love story", "blank space", "shake it off", "bad blood", "delicate", "you belong to me", "wildest dreams", "red", "all too well", "22" ]
+#input all songs into brackets 
+print(taylorswiftsongs)
+
+#(b)
+taylorswiftsongs = input("please enter a song from this list:")
+# asking the user to enter a song of there choice into this question
+
+#(c)
+taylorswift.index(taylorswiftsongs)
+   print("you have selected", taylorswiftsongs)
+   
+
+
+#question2
+#student name:jack barrett
+print("welcome to temperature alert system")
+temperature = input("please enter a temperature value in degrees:")
+print(temperature)
+ #inputing the degrees celcius
+
+if int(temperature) <20:
+    print("too cold turn up heating.")
+    
+elif int(temperature) ==20<=24:
+    print("temperature is just right.")
+
+else:
+    print("too warm ,turn down the heating.")
