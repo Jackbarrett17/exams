@@ -1,0 +1,28 @@
+#Student Name =jack barrett
+
+#this calculator can only add and subtract
+
+num1 = 4
+num2 = 5
+input ("please enter your name:") # i entered my name here
+print("hello")
+input ("welcome to the addition and subtraction calculator")
+print("do you want to (A)dd or (S)ubtract?") # i put in a capital A and capital S
+choice = input()
+if choice == "A": # i put in a capital A and capital S
+    print (num1 + num2)
+elif choice == "S": # i put in a capital A and capital S
+    print (num1 - num2)
+else:
+    print("invalid option") # if the letter was not a or s i made the computer add in invalid option if the letters were not correct
+print("do you want to (A)dd or (S)ubtract?")
+choice = input()
+if choice == "A":# i put in a capital A and capital S
+    print (num1 + num2)
+elif choice == "S":# i put in a capital A and capital Sj
+    print (num1 - num2)
+
+# student name = jack barrett
+squared_numbers =[1, 4, 9, 16, 25,36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400] #i entered the list of squared numbers 
+print (squared_numbers)
+input("which square number will i display (1-20)?:") # i then asked the computer tp display one squared number 
