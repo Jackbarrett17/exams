@@ -1,0 +1,128 @@
+#Student Name= jack barrett
+
+
+print("Household budget calculator. Please enter the following information")
+
+input("please enter the number of adults in the household: ")
+input("please enter the number of children in the household: ")
+num_adults = 2 #here i changed the total number of adults 
+num_child = 3 #here i changed the total number of children 
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+
+child_allowance = 140
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child)
+
+#Student Name=jack barrett
+
+
+print("Household budget calculator. Enter the following information ")
+
+input("please enter the number of adults in the household: ")
+input("please enter the number of children in the household: ")
+num_adults = 1 #here i changed the total number of adults 
+num_child = 4 #here i changed the total number of children 
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+
+child_allowance = 145 # i change this number to 145 to get the total childrens allowance
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child)
+
+#Student Name=jack barrett
+
+
+print("Household budget calculator. Enter the following information")
+
+input("please enter the number of adults in the household: ")
+input("please enter the number of children in the household: ")
+input("inflation rate: ") #i addded the inflation rate here
+num_adults = 1 #here i changed the total number of adults 
+num_child = 4 #here i changed the total number of children
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+inflation_rate = 0.1 # i added the inflation rate here 
+
+child_allowance = 145  # i change this number to 145 to get the total childrens allowance
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost : €", cost_food_adult*num_adults+cost_food_child*num_child)
+print("Total household food cost with inflation : €", cost_food_adult*num_adults+cost_food_child*num_child*inflation_rate+child_allowance) #i added the inflation rate to the total food cost
+
+#Student Name=jack barrett
+
+
+print("Household budget calculator. Enter the following information")
+
+input("please enter the number of adults in the household: ")
+input("please enter the number of children in the household: ")
+input("inflation rate: ")
+num_adults = 1 #here i changed the total number of adults 
+num_child = 4 #here i changed the total number of children 
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+inflation_rate = 0.1
+
+child_allowance = 145 # i change this number to 145 to get the total childrens allowance
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost : €", cost_food_adult*num_adults+cost_food_child*num_child)
+print("Total household food cost with inflation : €", cost_food_adult*num_adults+cost_food_child*num_child*inflation_rate+child_allowance)
+
+#Student Name=jack barrett
+
+
+print("Household budget calculator. Enter the following information")
+
+input("please enter the number of adults in the household: ")
+input("please enter the number of children in the household: ")
+input("inflation rate: ")
+num_adults = 1 #here i changed the total number of adults 
+num_child = 4 #here i changed the total number of children 
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+inflation_rate = 0.1
+
+child_allowance = 145 # i change this number to 145 to get the total childrens allowance
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost : €", cost_food_adult*num_adults+cost_food_child*num_child)
+print("Total household food cost with inflation : €", cost_food_adult*num_adults+cost_food_child*num_child*inflation_rate+child_allowance)
+input("percentage spend on food: ") #Here i added the the percentage spent on food 
+
+#Student Name=jack barrett
+
+
+print("Household budget calculator. Enter the following information")
+
+input("please enter the number of adults in the household: ")
+input("please enter the number of children in the household: ")
+input("inflation rate: ")
+num_adults = 1 #here i changed the total number of adults 
+num_child = 4 #here i changed the total number of children 
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+inflation_rate = 0.1
+
+child_allowance = 145 # i change this number to 145 to get the total childrens allowance
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost : €", cost_food_adult*num_adults+cost_food_child*num_child)
+print("Total household food cost with inflation : €", cost_food_adult*num_adults+cost_food_child*num_child*inflation_rate+child_allowance)
+input("percentage spend on food: ")
+input("budget remaining after food spend: ") #here is where i added the budget remaining after food spent 
