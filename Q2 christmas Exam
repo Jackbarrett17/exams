@@ -1,0 +1,8 @@
+print("Split Bill Calculator")
+
+money = input("How much is the bill:")
+
+people = input("how much people:")
+
+owe == money/people
+print("You each owe:",owe)
