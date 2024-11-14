@@ -1,0 +1,21 @@
+#jack barrett
+
+from random import choice
+
+fruits = ["apple", "cherry", "orange"]
+
+random_fruit1 = choice(fruits) #(i)
+random_fruit2 = choice(fruits) #(ii)
+random_fruit3 = choice(fruits) #(ii)
+print("Random Fruit 1:",random_fruit1) # I asked the user to enter a random fruit from the list above (i)
+print("Random Fruit 2:",random_fruit2) # I asked the user to enter a random fruit from the list above (ii)
+print("Random Fruit 3:",random_fruit3) # I asked the user to enter a random fruit from the list above (ii)
+
+print("First fruit is", random_fruit1) # I told the user to import whatever fruit was at random_fruit1 here (iii)
+
+if (random_fruit1)is(random_fruit2):  # Here I told the user to say first pair match if the first two fruits match each other (iv)
+    print("First pair match")
+    
+elif (random_fruit1)is(random_fruit3) or (random_fruit2)is(random_fruit3): # Here i made the user say matching pair only if is was fruit 1 or 3 matching or if it was 2 or 3 matching (vi)
+    print("matching pair")
+#(v) i did not know how to do or (vii)
